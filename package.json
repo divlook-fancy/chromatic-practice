@@ -1,0 +1,27 @@
+{
+  "name": "chromatic-practice",
+  "version": "0.1.0",
+  "description": "Chromatic Practice",
+  "scripts": {
+    "chromatic": "chromatic",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "formatting": "prettier -c -w stories .storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@storybook/addon-actions": "^6.3.4",
+    "@storybook/addon-essentials": "^6.3.4",
+    "@storybook/addon-links": "^6.3.4",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/react": "^6.3.4",
+    "babel-loader": "^8.2.2",
+    "chromatic": "^5.9.2",
+    "prettier": "^2.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
