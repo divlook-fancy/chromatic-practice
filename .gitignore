@@ -1,5 +1,7 @@
+# local
 node_modules
 .history
+*.log
 
 # storybook
 storybook-static
